@@ -40,13 +40,14 @@ h1 {
 .results-div {
     display: grid;
     place-content: center;
-    margin: 10px 0px;
+    margin: 10px auto;
     background-color: #A78295;
     font-size: 20px;
     text-align: center;
     word-wrap: break-word;
     min-height: 40px;
     color: black;
+    max-width: 500px;
 }
 #exp {
   border-radius : 10px;
