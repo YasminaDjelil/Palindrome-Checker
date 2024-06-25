@@ -1,0 +1,62 @@
+
+html {
+  background-color: #331D2C;
+}
+
+#main-box {
+  background-color: #A78295; 
+  border-radius: 20px;
+  height: 20%;
+  max-width: 500px;
+  margin: 10px auto;
+}
+h1 {
+  text-align: center;
+  color: #EFE1D1; 
+}
+#main-box > p {
+  text-align: center;
+}
+#text-input, #check-btn {
+  background: #EFE1D1;
+  display: block;
+  justify-content: center;
+  margin: 0px auto;
+}
+#check-btn {
+  color: #3F2E3E;
+  height: 25px;
+  width: 90px;
+  font-size: 15px;
+}
+#text-input {
+  width: 70%;
+  height: 20%;
+}
+.hidden {
+    display: none;
+    color: black;
+}
+.results-div {
+    display: grid;
+    place-content: center;
+    margin: 10px 0px;
+    background-color: #A78295;
+    font-size: 20px;
+    text-align: center;
+    word-wrap: break-word;
+    min-height: 40px;
+    color: black;
+}
+#exp {
+  border-radius : 10px;
+  background-color: #3F2E3E;
+  aspect-ratio: width/height;
+  max-width: 500px;
+  margin: 0 auto;
+}
+#exp > p {
+  color: #EFE1D1;
+  text-align: center;
+  padding: 5px;
+}
